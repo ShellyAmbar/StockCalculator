@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomNumberPicker">
+        <attr name="numberPicker_value" format="integer" />
+        <attr name="numberPicker_maxValue" format="integer" />
+        <attr name="numberPicker_minValue" format="integer" />
+        <attr name="numberPicker_textColor" format="color" />
+        <attr name="numberPicker_default_longPress_interval" format="integer"/>
+        <attr name="numberPicker_longPress_subtract_from_interval" format="integer"/>
+        <attr name="numberPicker_longPress_period_of_subtract_from_interval" format="integer"/>
+
+        <attr name="numberPicker_textSize" format="dimension" />
+
+    </declare-styleable>
+</resources>

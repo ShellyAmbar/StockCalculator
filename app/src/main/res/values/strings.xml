@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomStockCalculator</string>
+    <string name="min_value_message">The minimum  value is:</string>
+    <string name="max_value_message">The maximum  value is:</string>
+    <string name="title">Stock Calculator</string>
+    <string name="edit_text_item_price">Enter the price here</string>
+    <string name="calculate_btn">Calculate</string>
+</resources>

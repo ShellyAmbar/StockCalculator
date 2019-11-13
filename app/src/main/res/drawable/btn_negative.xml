@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="#640606"
+    tools:ignore="NewApi">
+    <item android:state_pressed="false">
+    <layer-list >
+        <item>
+            <shape
+                android:shape="ring" android:innerRadiusRatio="3"
+                android:thickness="5dp"
+                android:useLevel="false">
+                <gradient android:endColor="#01DFAE"  android:startColor="#1EB8FF" android:angle="270"/>
+                <size
+                    android:width="40dp"
+                    android:height="40dp" />
+            </shape>
+        </item>
+
+        <item
+            android:left="20dp"
+            android:right="20dp">
+            <shape android:shape="line">
+                <stroke
+                    android:width="1.5dp"
+                    android:color="@color/colorPrimary" />
+
+            </shape>
+        </item>
+    </layer-list>
+</item>
+
+    <item android:state_pressed="true">
+        <layer-list >
+            <item>
+                <shape
+                    android:shape="ring" android:innerRadiusRatio="3"
+                    android:thickness="5dp"
+                    android:useLevel="false">
+                    <gradient android:startColor="@android:color/white"  android:endColor="@android:color/white" android:angle="270"/>                    <size
+                        android:width="40dp"
+                        android:height="40dp" />
+                </shape>
+            </item>
+
+            <item
+                android:left="20dp"
+                android:right="20dp">
+                <shape android:shape="line">
+                    <stroke
+                        android:width="1.5dp"
+                        android:color="@android:color/white" />
+
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
